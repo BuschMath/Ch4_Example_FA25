@@ -23,5 +23,11 @@ int main()
 	cin >> f_num1;
 	cout << showpoint << "Float: " << f_num1 << endl;
 
+	cout << "Demo of ignore() function" << endl;
+	cout << "Enter a characters: ";
+	cin.ignore(5, '3');
+	cin.get(c_char1);
+	cout << "Character: " << c_char1 << endl;
+
 	return 0;
 }
